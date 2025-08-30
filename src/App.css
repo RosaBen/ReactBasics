@@ -68,7 +68,7 @@
   justify-items: center;
 }
 
-.recipeDiv,.counterDiv,.colorDiv,.formTextDiv {
+.recipeDiv,.counterDiv,.colorDiv,.formTextDiv,.hangingManDiv {
 background-color: grey;
 border: 3px solid blue;
 border-radius: 1rem;
@@ -105,4 +105,21 @@ text-align: center;
 
 .formTextDiv{
   height: 50%;
+}
+
+.wordHidden {
+  display: none;
+}
+
+.hangingManDiv{
+
+  width: 10rem;
+  margin-left: 5rem;
+  color:black;
+}
+
+.popupContainer{
+  background-color: green;
+  color: white;
+  
 }
