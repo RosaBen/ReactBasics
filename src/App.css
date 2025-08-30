@@ -1,0 +1,108 @@
+
+.red, .green, .purple,.blue {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+.red{
+
+  background-color: red;
+}
+
+.green{
+
+  background-color: green;
+}
+
+.blue{
+
+  background-color: blue;
+}
+
+.purple{
+
+  background-color: purple;
+}
+
+.bNumContainer p{
+  padding: 0;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  border: 3px solid white;
+  background-color: aqua;
+  color: grey;
+  border-radius: 50%;
+}
+
+
+.myRecipe {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: auto;
+}
+
+.myRecipe img{
+  width: 40%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.myRecipe a{
+  text-decoration: none;
+  color: blue;
+}
+
+.myRecipe a:hover{
+  color: purple;
+}
+
+.detailsDiv{
+  display: grid;
+  grid-template-columns: 10% 20% 20% 50%;
+  margin: 2rem auto;
+  justify-items: center;
+}
+
+.recipeDiv,.counterDiv,.colorDiv,.formTextDiv {
+background-color: grey;
+border: 3px solid blue;
+border-radius: 1rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+padding: 1rem;
+color:white;
+height: 40%;
+}
+
+button, input[type="submit"]{
+  width: 5rem;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  border: 3px solid white;
+  border-radius: 2rem;
+}
+
+.textInput{
+color:blue;
+width: 10rem;
+height: 3rem;
+text-align: center;
+}
+
+.recipeDiv{
+  height: 60%;
+  flex-direction: row !important;
+  padding-bottom: 2rem !important;
+}
+
+.formTextDiv{
+  height: 50%;
+}
